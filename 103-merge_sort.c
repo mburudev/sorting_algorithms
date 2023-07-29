@@ -1,9 +1,5 @@
 #include "sort.h"
 
-/* Function prototypes */
-void merge_recursion(int *arr, int *array, size_t left, size_t right);
-void merge_subarray(int *arr, int *array, size_t left, size_t middle, size_t right);
-
 /**
  * merge_sort - sorts an array with the Merge Sort algorithm
  * @array: array of ints to sort
